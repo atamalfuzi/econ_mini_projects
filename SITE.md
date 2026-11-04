@@ -4,7 +4,7 @@ For the session that integrates the website. Nothing here has been added to the 
 
 ## Portfolio entry
 
-**Title:** Four mini research projects
+**Title:** Five mini research projects
 
 **Type and year:** Open data analysis in Python, 2026
 
@@ -13,12 +13,13 @@ For the session that integrates the website. Nothing here has been added to the 
 - The US equity premium since 1871, and what a consumption model needs to explain it.
 - Long-horizon portfolio choice when the dividend yield predicts returns.
 - How much of Canada's business cycle a basic real business cycle model reproduces.
+- The break-even electricity price for a small engine run on natural gas or on biogas.
 
 Each project answers one question, checks itself against published numbers or closed forms, and runs on its own.
 
 **Links:** code at https://github.com/atamalfuzi/econ_mini_projects
 
-## The four projects
+## The five projects
 
 ### Did Arizona's charter schools draw white students out of public schools?
 
@@ -60,3 +61,12 @@ The standard real business cycle model is calibrated to Canadian national accoun
 - Correlation of hours with output per hour: 0.91 in the model, −0.28 in the data.
 
 Link: https://github.com/atamalfuzi/econ_mini_projects/tree/main/rbc_canada
+
+### At what guaranteed price does a small gas engine break even on natural gas or on biogas?
+
+A rebuild of an unpublished 2018 feasibility study for a 538 kW engine in Tabriz, Iran, run on natural gas or on upgraded biogas. The engine model reproduces, and gas needs about 2,930 rials per kWh against a guaranteed 1,000, as the study found. The study's finding that biogas pays came from its business plans counting one hour of upgrading cost as a year's. At published upgrading costs biogas does not break even at its 3,500 tariff either. It loses less than gas only at the costs of large upgrading plants.
+
+- Gas break-even tariff: 2,933 rials per kWh, or 7.0 US cents at the 2018 official rate.
+- Biogas break-even: 3,304 rials per kWh as the plans are printed. With a full year of fuel, 4,260 to 7,720 at published upgrading costs, and 53,155 at the study's own price.
+
+Link: https://github.com/atamalfuzi/econ_mini_projects/tree/main/biogas_engine_tariff

@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        mini: [charter_schools_arizona, equity_premium, long_horizon_portfolio, rbc_canada]
+        mini: [charter_schools_arizona, equity_premium, long_horizon_portfolio, rbc_canada, biogas_engine_tariff]
     defaults:
       run:
         working-directory: ${{ matrix.mini }}

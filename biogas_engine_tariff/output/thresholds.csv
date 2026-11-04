@@ -1,0 +1,24 @@
+item,value,unit,us_dollars
+"ranking margin, workbook as printed",2019.8809414139532,rials/kWh,0.04809240336699889
+"ranking margin, fuel annualised",-47721.94162862908,rials/kWh,-1.1362367054435496
+biogas break-even below which biogas ranks first,5433.153307639697,rials/kWh,0.1293607930390404
+upgrading cost at which biogas breaks even at its tariff,810.9285729203831,rials/m3,0.019307823164771025
+"same, EPA engine efficiency",506.84552457946256,rials/m3,0.012067750585225299
+upgrading cost below which biogas ranks first at the two tariffs,8565.68189217511,rials/m3,0.2039448069565502
+"same, EPA engine efficiency",5517.593209663005,rials/m3,0.13137126689673823
+biogas break-even with free upgrading,3297.8466640443385,rials/kWh,0.07852015866772234
+"Monte Carlo: share with biogas first, upgrading cost within +/-50% of the workbook",0.0,share,
+Monte Carlo: upgrading cost at which biogas ranks first in 95% of draws,1565.4515464241515,rials/m3,0.037272655867241704
+Monte Carlo: upgrading cost at which biogas ranks first in 50% of draws,6923.524571211359,rials/m3,0.16484582312407997
+Monte Carlo: upgrading cost at which biogas ranks first in 5% of draws,13136.597442655362,rials/m3,0.31277612958703244
+ranking threshold as a share of the workbook's upgrading cost,0.042828409460875544,share,
+workbook upgrading cost relative to the gas price,329.48929159802304,ratio,
+biogas volume per kWh relative to gas,1.3888888888888888,ratio,
+gas fuel cost as a share of gas cash costs,0.057566552654127384,share,
+gas cash costs per kWh,1770.1247073527363,rials/kWh,0.04214582636554134
+electricity and land rent per kWh,967.5521704130288,rials/kWh,0.023036956438405448
+"workbook machinery cost per kW, gas",1200.0000000000002,US$/kW,
+"EPA installed cost per kW, 633 kW unit (2013)",2837.0,US$/kW,
+"EPA engine efficiency, LHV basis",0.38295,share,
+discount rate,0.05,share,
+life,8.0,years,

@@ -1,0 +1,38 @@
+cell,item,unit,gas,biogas
+D36,rated output,kW (text),538.3 KW,538.3 KW
+E36,annual output,kWh,4134143.9999999995,4134143.9999999995
+G36,tariff used in the workbook,rials/kWh,2700.0,3500.0
+E145,fuel use,m3/h,90.36,125.52
+G145,fuel price (gas) or upgrading cost (biogas),rials/m3,607.0,200000.0
+I145,"fuel cost, one hour",rials,54848.52,25104000.0
+I174,land,rials,2000000000.0,2000000000.0
+I175,site preparation,rials,0.0,0.0
+I176,building,rials,1004000000.0,1004000000.0
+I106,engine,rials,22608600000.0,22608600000.0
+I108,biogas compressor,rials,0.0,8200000000.0
+I110,transformer and controls,rials,3391290000.0,3391290000.0
+I112,installation,rials,1130430000.0,1130430000.0
+I177,machinery total,rials,27130320000.0,35330320000.0
+I178,"utilities (gas piping, cabling)",rials,500000000.0,500000000.0
+I181,contingency on fixed capital,rials,1531716000.0,1941716000.0
+I185,fixed capital,rials,32166036000.0,40776036000.0
+I188,working capital: materials,rials,9141.42,4184000.0
+I189,working capital: salaries,rials,78800000.0,78800000.0
+I190,working capital: utilities,rials,666666666.6666666,666666666.6666666
+I191,working capital,rials,745475808.0866666,749650666.6666666
+C198,total investment,rials,32911511810.086666,41525686668.666664
+I209,depreciation,rials/yr,3763927400.0,4850427400.0
+I212,cost 1: materials (fuel),rials/yr,54848.52,25104000.0
+I213,cost 2: salaries,rials/yr,472800000.0,472800000.0
+I214,cost 3: electricity and land rent,rials/yr,4000000000.0,4000000000.0
+I215,cost 4: maintenance,rials/yr,1944202400.0,2518202400.0
+I216,cost 5: contingency (5% of 1-4),rials/yr,320852862.42600006,350805320.0
+I217,cost 6: admin and sales (1% of 1-5),rials/yr,67379101.10946,73669117.2
+I218,cost 7: financing,rials/yr,0.0,0.0
+I219,cost 8: insurance (0.2% of investment),rials/yr,65823023.616173334,83051373.33333333
+I220,cost 9: depreciation,rials/yr,3763927400.0,4850427400.0
+I223,annual production cost,rials/yr,10635039635.671635,12374059610.533333
+H225,unit cost,rials/kWh,2572.488920480669,2993.137058247931
+D10,profit,rials/yr,527149164.3283634,2095444389.4666653
+D11,return on investment,share,0.016017166496946022,0.050461402509396416
+D12,payback,years,7.669756369224317,5.978470079398801
