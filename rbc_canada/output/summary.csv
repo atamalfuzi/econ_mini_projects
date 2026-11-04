@@ -1,0 +1,12 @@
+name,value
+sample,1976Q1-2019Q4
+quarters,176
+latest_quarter,2026Q2
+simulations,1000
+output_sd_ratio,0.8158948695098077
+output_variance_ratio,0.6656844380924262
+hours_sd_ratio,0.3985048354338353
+history_corr_output,0.6927311237245031
+history_corr_hours,0.07965657662221476
+history_sd_ratio_output,0.9082205561159259
+history_sd_ratio_hours,0.4398563893968395

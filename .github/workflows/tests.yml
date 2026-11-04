@@ -1,0 +1,24 @@
+---
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-26.04
+    strategy:
+      fail-fast: false
+      matrix:
+        mini: [charter_schools_arizona, equity_premium, long_horizon_portfolio, rbc_canada]
+    defaults:
+      run:
+        working-directory: ${{ matrix.mini }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ${{ matrix.mini }}/requirements*.txt
+      - run: pip install -r requirements-dev.txt
+      - run: pytest

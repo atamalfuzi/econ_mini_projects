@@ -1,0 +1,18 @@
+name,value,description
+alpha,0.33398866045232745,"capital share: 1 minus compensation / (compensation + gross operating surplus), 1990-2019"
+beta,0.990947250134272,"discount factor: from the Euler equation, 1 / (1 + alpha Y/K - delta)"
+delta,0.029124121759472238,"quarterly depreciation: investment / capital, 1990-2019"
+h,0.24636031571340303,"share of time worked: actual hours per person aged 15-64 / 100 hours a week, 1990-2019"
+theta,2.7319688172113032,weight on leisure: set so the household works the share h
+rho,0.9696119230568847,"technology persistence: AR(1) of the detrended Solow residual, 1976Q1-2019Q4"
+sigma,0.005884090271737466,"technology shock standard deviation: same regression, 1976Q1-2019Q4"
+labour_share,0.6660113395476726,"compensation / (compensation + gross operating surplus), 1990-2019"
+investment_output,0.25424033145910846,"data and model: private investment / GDP, current prices"
+capital_output,8.729544999118133,data and model: private produced capital / quarterly GDP
+consumption_output_data,0.49135570510186366,"consumption / GDP in the data, current prices"
+consumption_output_model,0.7457596685408914,"consumption / output in the model, which has no government or trade"
+hours_per_week,24.636031571340304,"actual hours worked per person aged 15-64 per week, 1990-2019"
+frisch_elasticity,3.0590953015473663,Frisch elasticity of hours implied by log leisure: (1 - h) / h
+technology_trend_growth,0.4337630768447088,"linear trend of the Solow residual, per cent a year"
+stable_root,0.9417234764774964,capital's root in the log-linear model
+unstable_root,1.0715836187832346,consumption's root
